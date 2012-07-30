@@ -1,0 +1,168 @@
+html, body{
+  margin:0;
+  color:#FFFFFF;
+  background-image:url('/images/city75.jpg');
+  font-family: 'Oswald', sans-serif;
+  font-size:14px;
+}
+
+*{ margin:0; padding:0;}
+body{}
+form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+textarea{resize:none;}
+
+a, a:visited{
+  color:#999999;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#444444;
+}
+
+.red{
+  color:#CC0000;
+}
+
+.any_box{
+  width:500px;
+  padding:15px;
+  
+  margin:0 auto;
+  background:#222222;
+  border:1px solid #262626;
+
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.flash_wrapper{
+  text-align:center;
+  color:#E30000;
+}
+
+.footer_box{
+  margin-top:10px;
+  padding:3px 15px;
+}
+
+.footer_box a{
+  margin:0 5px;
+}
+
+
+/******************   ERRORS   ******************/
+
+.error_wrapper{
+  border-top:1px solid #CC0000;
+  border-bottom:1px solid #CC0000;
+  padding:5px;
+}
+
+.error_header{
+  font-size:17px;
+}
+
+.error_list{
+
+}
+
+/******************   END ERRORS   ******************/
+
+
+/******************   TEAMS   ******************/
+
+.header_title{
+  font-size:40px;
+  text-align:center;
+}
+
+.small_header{
+  font-size:25px;
+  text-align:center;
+}
+
+.box{
+  margin-top:20px;
+}
+
+.team_field{
+  margin:10px 0;
+}
+
+.team_form_label {
+  width:100%;
+}
+
+.input_text {
+  width:75%;
+  height:25px;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.message{
+  width:100%;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+  overflow:hidden;
+  height:150px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button
+{
+  margin:0 0 10px 0;
+  padding:4px 7px;
+  background-color:#CC0000;
+  border:0px;
+  position: relative;
+  top:10px;
+  left:382px;
+  width:100px;
+  border-bottom: 1px double #660000;
+  border-top: 1px double #660000;
+  border-left:1px double #FF0033;
+  border-right:1px double #FF0033;
+
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button:hover{
+  cursor:pointer;
+  background-color:#E30000;
+}
+
+/******************   END TEAMS   ******************/
+
+
+
+/******************   ABOUT   ******************/
+ 
+.about_p{
+  margin:15px 0;  
+}
+
+/******************   END ABOUT   ******************/
+

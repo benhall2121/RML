@@ -1,0 +1,46 @@
+
+
+<div class="small_header">Registration Form</div>
+<%= form_for(@team) do |f| %>
+  <% if @team.errors.any? %>
+    <div id="error_explanation" class="error_wrapper">
+      <div class="error_header">
+        <%= pluralize(@team.errors.count, "error") %> prohibited this team from being saved:
+      </div>
+
+      <div class="error_list">
+        <% @team.errors.full_messages.each do |msg| %>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= msg %><br/>
+        <% end %>
+      </div>
+
+    </div>
+  <% end %>
+
+  <div class="team_field">
+    <%= f.label 'Your Name', :class => 'team_form_label' %><br />
+    <%= f.text_field :name, :class => 'input_text' %>
+  </div>
+  <div class="team_field">
+    <%= f.label 'Company Name', :class => 'team_form_label' %><br />
+    <%= f.text_field :company_name, :class => 'input_text' %>
+  </div>
+  <div class="team_field">
+    <%= f.label 'Email Address', :class => 'team_form_label' %><br />
+    <%= f.text_field :email, :class => 'input_text' %>
+  </div>
+  <div class="team_field">
+    <%= f.label 'Phone Number', :class => 'team_form_label' %><br />
+    <%= f.text_field :phone, :class => 'input_text' %>
+  </div>
+  <div class="team_field">
+    <%= f.label 'Quick Pitch', :class => 'team_form_label' %><br />
+    <%= f.text_area :quick_pitch, :class => 'message' %>
+  </div>
+  <div class="actions">
+    <%= f.submit 'Submit', :class => 'button' %>
+  </div>
+<% end %>
+
+
+
