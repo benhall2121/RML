@@ -52,6 +52,62 @@ a:hover{
   margin:0 5px;
 }
 
+input {
+  width:75%;
+  height:25px;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+textarea{
+  width:100%;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+  overflow:hidden;
+  height:150px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=button], input[type=submit]{
+  margin:0 0 10px 0;
+  padding:4px 7px;
+  background-color:#CC0000;
+  border:0px;
+  position: relative;
+  top:10px;
+  left:382px;
+  width:100px;
+  border-bottom: 1px double #660000;
+  border-top: 1px double #660000;
+  border-left:1px double #FF0033;
+  border-right:1px double #FF0033;
+
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=button]:hover, input[type=submit]:hover{
+  cursor:pointer;
+  background-color:#E30000;
+}
 
 /******************   ERRORS   ******************/
 
@@ -94,64 +150,6 @@ a:hover{
 
 .team_form_label {
   width:100%;
-}
-
-.input_text {
-  width:75%;
-  height:25px;
-  background:#262626;
-  border-bottom: 1px double #171717;
-  border-top: 1px double #171717;
-  border-left:1px double #333333;
-  border-right:1px double #333333;
-
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.message{
-  width:100%;
-  background:#262626;
-  border-bottom: 1px double #171717;
-  border-top: 1px double #171717;
-  border-left:1px double #333333;
-  border-right:1px double #333333;
-  overflow:hidden;
-  height:150px;
-
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.button
-{
-  margin:0 0 10px 0;
-  padding:4px 7px;
-  background-color:#CC0000;
-  border:0px;
-  position: relative;
-  top:10px;
-  left:382px;
-  width:100px;
-  border-bottom: 1px double #660000;
-  border-top: 1px double #660000;
-  border-left:1px double #FF0033;
-  border-right:1px double #FF0033;
-
-
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-}
-
-.button:hover{
-  cursor:pointer;
-  background-color:#E30000;
 }
 
 /******************   END TEAMS   ******************/

@@ -8,5 +8,5 @@
 
 if User.find(:first, :conditions => ['email = ?', 'benhall2121@yahoo.com']).nil?
   puts 'No data was found in the USERS table so we are seeding it'
-  user1 = User.create(:email => 'benhall2121@yahoo.com', :password => '212134', :password_confirmation => '212134', :admin => true)
+  user1 = User.create(:email => 'benhall2121@yahoo.com', :password => '212134', :password_confirmation => '212134')
 end
