@@ -11,5 +11,7 @@ Rml::Application.routes.draw do
   get "home" => "users#home", :as => "home"
   get "about" => "users#about", :as => "about"
   
+  match '/timeZone', :to => redirect('/timeZone/index.html')
+
   root :to => "teams#new"
 end

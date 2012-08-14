@@ -1,0 +1,14 @@
+body{
+  background-color:#012345;
+  color:#294968;
+}
+
+.tz{
+  display:inline-block;
+  padding:10px;
+}
+
+.tz:hover{
+  cursor:pointer;
+  color:#325980;
+};

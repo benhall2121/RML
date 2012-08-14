@@ -1,0 +1,334 @@
+/* Meyer Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* core */
+a { color: #7b0000; }
+a[target=_blank] { background: transparent url(http://static.joncom.be/screen/images/externallink.gif) no-repeat 100% 0; padding-right: 12px; margin-right: 1px; }
+body { background: #fff; font-family: tahoma, arial, helvetica, sans-serif; }
+blockquote { border-left: 8px solid #e8f1f2; color: #117479; font-size: 12px; line-height: 21px; margin: 0 0 22px 0; padding: 0 0 0 8px; }
+code { background: #dfeaf1; margin: 0 2px; padding: 1px 6px; }
+h1 { border-bottom: 1px dotted #ddd; clear: both; color: #666; font-family: arial, helvetica, sans-serif; font-size: 28px; font-weight: normal; margin: 0 0 14px; padding: 0 0 6px; }
+h1 a { color: #666; text-decoration: none; }
+h1 a:hover { color: #7b0000; }
+h2 { border-bottom: 1px dotted #ddd; clear: both; color: #666; font-family: arial, helvetica, sans-serif; font-size: 21px; font-weight: normal; margin: 0 0 4px; padding: 0 0 6px; }
+h3 { clear: both; color: #666; font-family: arial, helvetica, sans-serif; font-size: 16px; font-weight: normal; margin: 0 0 2px; padding: 0 0 6px; }
+h4 { border-bottom: 1px dotted #ddd; clear: both; color: #111; font-family: arial, helvetica, sans-serif; font-size: 16px; font-weight: normal; margin: 24px 0 4px 0; padding: 0 0 6px; }
+img { border: 6px solid #dfeaf1; margin: 0 10px 0 0; }
+img.full { border: 0; margin: 0 0 16px; }
+ol { list-style-type: lower-alpha; margin: -18px 0 3px; }
+ol li { color: #555; font-size: 12px; line-height: 21px; margin: 3px 0 3px 28px; }
+p { color: #555; font-size: 12px; line-height: 21px; margin: 0 0 21px 0; }
+p.noBottomBorder { margin: 0 0 10px 0; }
+pre { background: #dfeaf1 url(http://static.joncom.be/screen/images/pre.gif) repeat 0 0; border: #dfeaf1 solid 20px; font-size: 13px; line-height: 20px; margin: 2px 0 20px; overflow: auto; padding: 1px 0; }
+small { font-size: 10px; }
+td { color: #555; font-size: 12px; line-height: 21px; vertical-align: top; }
+ul.bullet { color: #555; font-size: 12px; line-height: 18px; list-style: disc; margin: 4px 0 21px 33px; padding: 0 0 0 4px; }
+ul.bullet li { padding: 0 0 8px; }
+ul.square { color: #666; font-size: 12px; line-height: 15px; list-style: square; margin: 4px 0 15px 19px; padding: 0 0 0 4px; }
+ul.square li { padding: 0 0 6px; }
+#container { background: #fff; margin: 0 auto; width: 970px; }
+#footer { border-bottom: 26px solid #fff; border-top: 1px dotted #aaa; color: #666; font-family: arial; font-size: 11px; float: left; margin: 40px auto 0; padding: 6px 10px 0 0; text-align: right; width: 960px; }
+.center { text-align: center; }
+.right { text-align: right; }
+.warning { background: #660000; font-size: 14px; margin-bottom: 12px; padding: 12px 16px 5px; }
+.warning a { color: #fff; }
+.warning h1 { border-bottom: none; color: #fff; margin-bottom: 0; font-size: 24px; }
+.warning p { color: #fee;}
+
+/* navigation */
+#nav { border-bottom: #aaa dotted 1px; font-family: tahoma, arial, helvetica, sans-serif; text-align: right; margin: 8px auto 44px; width: 970px; padding: 0 0 8px; }
+#nav a { border-left: 1px solid #aaa; color: #aaa; font-size: 12px; text-decoration: none; padding: 0 11px 0 12px; outline: 0; }
+#nav a:hover { color: #7b0000; }
+#nav a.RSS { background: #fff none; color: orange; padding-right: 5px; }
+#nav a.selected { color: #7b0000; }
+#nav span { border-left: 1px solid #aaa; color: #7b0000; font-size: 12px; padding: 0 11px 0 12px; }
+
+/* logo */
+#joncombe { background: #fff url(http://static.joncom.be/screen/images/jc.gif) repeat -2909px 0; border: 0; left: 50%; height: 41px; margin-left: -471px; overflow: hidden; position: absolute; top: 0; width: 127px; }
+#joncombe a, #joncombe span { display: block; height: 41px; padding: 0 127px; width: 127px; }
+#joncombe a:hover { background: #fff url(http://static.joncom.be/screen/images/jc.gif) repeat -3035px 0; }
+
+/* columns */
+div.col2 { background: transparent url(http://static.joncom.be/screen/images/jc.gif) repeat -970px 0; float: left; width: 970px; }
+div.col2Left { width: 206px; }
+div.col2Left ul { margin: -16px 0 20px 0; }
+div.col2Right { float: right; width: 736px; }
+
+div.col3 { background: transparent url(http://static.joncom.be/screen/images/jc.gif) repeat 0 0; float: left; width: 970px; }
+div.col3 h1 { font-size: 22px; }
+div.col3 p { margin: 0; }
+div.col3Left { float: left; width: 302px; }
+div.col3Middle { float: left; margin: 0 0 0 32px; width: 302px; }
+div.col3Right { float: right; width: 302px; }
+
+div.cols5 { border-top: 1px dotted #ddd; float: left; margin-top: 8px; padding-top: 10px; width: 970px; }
+div.cols5 p { line-height: 12px; padding-bottom: 3px; }
+div.cols5Inner { background: transparent url(http://static.joncom.be/screen/images/jc.gif) repeat -1940px 0; float: left; width: 970px; }
+div.cols5Left { float: left; margin-right: 20px; width: 178px; }
+div.cols5Right { float: right; width: 178px; }
+
+div.cols5 ul { margin: -16px 0 0 0; }
+div.col2Left ul li, div.cols5 ul li { border-top: 1px dotted #ddd; color: #999; font-size: 12px; line-height: 17px; padding: 3px 0; }
+div.col2Left a, div.cols5 a { text-decoration: none; }
+div.col2Left a:hover, div.cols5 a:hover { text-decoration: underline; }
+
+div.innerCols2 { -o-column-count: 2; -o-column-gap: 28px; -o-column-rule: 1px dotted #eee; -moz-column-count: 2; -moz-column-gap: 28px; -moz-column-rule: 1px dotted #eee; -webkit-column-count: 2; -webkit-column-gap: 28px; -webkit-column-rule: 1px dotted #eee; column-count: 2; column-gap: 28px; column-rule: 1px dotted #eee; }
+div.innerCols3 { -o-column-count: 3; -o-column-gap: 28px; -o-column-rule: 1px dotted #eee; -moz-column-count: 3; -moz-column-gap: 28px; -moz-column-rule: 1px dotted #eee; -webkit-column-count: 3; -webkit-column-gap: 28px; -webkit-column-rule: 1px dotted #eee; column-count: 3; column-gap: 28px; column-rule: 1px dotted #eee; }
+
+/* blog */
+.blogYouTube { float: left; width: 100%; } /* set movie width to 330px */
+.blogYouTube div { float: right; width: 393px; }
+
+/* homepage */
+#homepageContainer { border-bottom: 14px solid #fff; height: 330px; margin: 0 auto; overflow: hidden; position: relative; width: 970px; }
+#homepageContainer div { position: absolute; top: 300px; width: 970px; }
+#homepageContainer div div { position: relative; top: 0; }
+#homepageContainer .homepageFeatureDots { float: left; margin: 0 0 0 15px; width: 445px;  }
+#homepageContainer .homepageFeatureDots span { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3162px 4px; cursor: pointer; display: inline-block; height: 14px; padding: 4px 2px; width: 18px; }
+#homepageContainer .homepageFeatureDots span:hover { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3182px 4px; }
+#homepageContainer .homepageFeatureDots span.on { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3202px 4px; }
+#homepageContainer div .homepageFeatureTimer { float: left; padding: 6px 0 0 0; text-align: center; width: 50px;  }
+#homepageContainer div .homepageFeatureTimer img { border: none; display: none;  }
+
+#homepageContainer .homepageFeatureLinks { color: #bbb; float: right; font-family: arial, helvetica, sans-serif; font-size: 11px; line-height: 14px; margin: 0 15px 0 0; text-align: right; top: 7px; width: 200px;  }
+#homepageContainer .homepageFeatureLinks span { color: #7b0000; cursor: pointer; }
+#homepageContainer .homepageFeatureLinks span:hover { text-decoration: underline; }
+#homepageFeatures { position: absolute; left: -971px; width: 9910px; }
+#homepageFeatures a[target=_blank] { background-image: none; padding-right: 0; margin-right: 0; }
+#homepageFeatures h1 { border: 0; }
+#homepageFeatures img { border: 0; }
+#homepageFeatures li { border-right: 1px solid #fff; float: left; height: 300px; width: 970px; }
+#homepageFeatureBKKPages { background: #fff url(http://static.joncom.be/screen/images/home/feature_bkkpages.jpg) no-repeat 0 0; position: relative; }
+#homepageFeatureBKKPages h1 { position: absolute; right: 40px; text-align: right; top: 36px; }
+#homepageFeatureBKKPages p { position: absolute; right: 40px; text-align: right; top: 75px; width: 340px; }
+#homepageFeatureJAWStats { background: #f4f4f4 url(http://static.joncom.be/screen/images/home/feature_jawstats.gif) repeat-x 0 0; position: relative; }
+#homepageFeatureJAWStats img { position: absolute; left: 60px; }
+#homepageFeatureJAWStats h1 { position: absolute; right: 85px; text-align: right; top: 44px; }
+#homepageFeatureJAWStats p { position: absolute; right: 85px; text-align: right; top: 83px; width: 480px; }
+#homepageFeatureThrust { background: #088 url(http://static.joncom.be/screen/images/home/feature_thrust.gif) no-repeat 100% 0; position: relative; }
+#homepageFeatureThrust h1 { color: #0dd; position: absolute; left: 40px; line-height: 34px; top: 48px; }
+#homepageFeatureThrust p { color: #eff; position: absolute; left: 70px; top: 140px; width: 420px; }
+#homepageFeatureThrust a { color: #0ee; }
+#homepageFeatureWorldMap { background: #9ee0e3 url(http://static.joncom.be/screen/images/home/feature_worldmap.gif) no-repeat 100% 0; position: relative; }
+#homepageFeatureWorldMap h1 { color: #444; position: absolute; left: 40px; top: 44px; }
+#homepageFeatureWorldMap p { color: #444; position: absolute; left: 65px; top: 83px; width: 350px; }
+
+/* links */
+div.links { background: transparent; }
+div.linksLeft { border-right: 1px dotted #eee; float: left; padding-right: 12px; width: 356px; }
+div.linksRight { float: right; width: 355px; }
+div.links ul { margin: 0 0 0 0; }
+div.links ul li p { margin: 0; }
+div.links ul li p.author { color: #777; font-size: 10px; line-height: 14px; }
+div.links ul li.book { background: transparent url('http://static.joncom.be/screen/images/links/book.gif') no-repeat 1px 6px; font-size: 12px; padding: 0 0 14px 33px; }
+div.links ul li.website { background: transparent url('http://static.joncom.be/screen/images/links/website.gif') no-repeat 0 8px; font-size: 12px; margin: 0 0 7px 0; padding: 0 0 14px 33px; }
+div.links ul li:last-child { padding-bottom: 0; }
+div.links ul li img { border: 0; }
+
+/* misc */
+div.blogdate { border-bottom: 1px dotted #ddd; color: #666; font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; line-height: 14px; margin: -11px 0 14px; padding: 0 0 3px; }
+div.blogdate a { text-decoration: none; }
+div.blogdate a:hover { text-decoration: underline; }
+div.blogdate span { color: #bbb; float: right; }
+div.blogLeft { float: left; margin-bottom: 20px; width: 250px; }
+div.blogRight { float: right; margin-bottom: 20px; width: 481px; }
+div.blogLeft2 { float: left; margin-bottom: 20px; width: 481px; }
+div.blogRight2 { float: right; margin-bottom: 20px; width: 226px; }
+div.imgcaption { background: #dfeaf1; color: #555; font-family: arial, helvetica, sans-serif; font-size: 11px; font-style: italic; line-height: 14px; padding: 0 12px 9px 12px; text-align: right; }
+div.skills { background: #dfeaf1; color: #555; margin-top: 18px; padding: 16px 16px 2px 16px; }
+div.skills h2 { border-bottom: 0; }
+div.skills table { width: 100%; }
+h1.multiple { border-top: #fff solid 41px; }
+h1.error, h2.error { border-bottom: #7b0000 dashed 1px; }
+h2.multiple { border-top: #fff solid 18px; }
+#error404 { background: #dfeaf1; color: #fff; font-size: 28px; padding: 120px 0; text-align: center; }
+#error500 { background: #900; color: #fff; font-size: 28px; padding: 120px 0; text-align: center; }
+#twitter { margin-top: -28px; }
+#twitter a { background: transparent none; border-bottom: 1px dotted #1f4d65; color: #1f4d65; padding: 0; margin: 0; text-decoration: none; }
+#twitter a:hover { border-bottom: 1px solid #7b0000; color: #7b0000; text-decoration: none; }
+#twitter li { background: #dfeaf1; border-bottom: 1px solid #fff; border-top: 0; overflow: hidden; line-height: 18px; padding: 16px 0 0; }
+#twitter li.twitter0 { background: #dfeaf1 url('http://static.joncom.be/screen/images/blog/twitter.gif') no-repeat 0 0; }
+#twitter li.twitter1 { background: #dfeaf1 url('http://static.joncom.be/screen/images/blog/twitter.gif') no-repeat -206px 0; }
+#twitter li.twitter2 { background: #dfeaf1 url('http://static.joncom.be/screen/images/blog/twitter.gif') no-repeat -412px 0; }
+#twitter div { background: #dfeaf1 url('http://static.joncom.be/screen/images/blog/twitter.gif') no-repeat -618px 100%; color: #777; font-family: arial, helvetica, sans-serif; font-size: 10px; line-height: 11px; padding: 1px 14px 7px 0; text-align: right; }
+#twitter p { color: #1f4d65; line-height: 17px; margin: 0; padding: 0 9px; }
+#twitterwide { display: none; float: left; height: 24px; margin: 25px 0 -15px 0; overflow: hidden; white-space: nowrap; width: 100%; }
+#twitterwide a { background: transparent none; display: block; height: 24px; line-height: 100px; padding: 0; margin: 0; overflow: hidden; width: 37px; }
+#twitterwide td { background: #fff; vertical-align: middle; }
+#twitterwide td.left { background: #fff url('http://static.joncom.be/screen/images/jc.gif') no-repeat -3255px 0; color: #1f4d65; overflow: hidden; width: 37px; } /* padding: 0 16px 0 18px; */
+#twitterwide td.middle { background: #dfeaf1; color: #1f4d65; padding: 0 13px 0 12px; }
+#twitterwide td.middle a { border-bottom: 1px dotted #1f4d65; color: #1f4d65; display: inline; line-height: 12px; text-decoration: none; }
+#twitterwide td.middle a:hover { border-bottom: 1px dotted #7b0000; color: #7b0000; }
+#twitterwide td.right { background: #fff url('http://static.joncom.be/screen/images/jc.gif') no-repeat -3291px 0; border-right: 38px solid #fff; overflow: hidden; width: 5px; }
+#twitterwide td.pad { width: 50%; }
+
+/* adsense */
+#adsenseLeft { margin-top: -28px; }
+#adsenseLeft li { background: #dfeaf1 url('http://static.joncom.be/screen/images/blog/twitter.gif') no-repeat -824px 0; border-bottom: 1px solid #fff; border-top: 0; overflow: hidden; padding: 14px 0 0; }
+#adsenseLeft div { background: #dfeaf1 url('http://static.joncom.be/screen/images/blog/twitter.gif') no-repeat -618px 100%; padding: 0 0 14px; text-align: center; }
+
+/* blog archive */
+div.blogarchive div { border-bottom: 1px dotted #ddd; margin: 0; padding: 9px 0; }
+div.blogarchive div:first-child { padding-top: 0; }
+div.blogarchive div:last-child { border: 0; }
+div.blogarchive div div { border: 0; font-family: arial, helvetica, sans-serif; font-size: 15px; font-weight: normal; margin: 0; padding: 0; }
+div.blogarchive div div a { color: #7b0000; text-decoration: none; }
+div.blogarchive div div a:hover { text-decoration: underline; }
+div.blogarchive div span { color: #888; font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; line-height: 14px; margin: 4px 0 0; padding: 0 0 0 7px; }
+div.blogarchive div p { margin: 1px 0 0 0; }
+
+/* blog calendar */
+div.blogcalendarright { float: right; padding: 16px 0 0 0; width: 467px; }
+table.blogcalendar { float: left; }
+table.blogcalendar a { text-decoration: none; }
+table.blogcalendar thead th { color: #888; font-weight: normal; font-size: 11px; padding: 0 0 5px 0; text-align: center; }
+table.blogcalendar tbody td { background: #fff url('http://static.joncom.be/screen/images/blog/calendar.gif') no-repeat 0 0; color: #888; font-size: 12px; height: 36px; padding: 0 6px 0 0; text-align: right; width: 30px; }
+table.blogcalendar tbody td.active { background: #fff url('http://static.joncom.be/screen/images/blog/calendar.gif') no-repeat -72px 0; cursor: pointer; }
+table.blogcalendar tbody td.active:hover a { text-decoration: underline; }
+table.blogcalendar tbody td.grey { background: #fff url('http://static.joncom.be/screen/images/blog/calendar.gif') no-repeat -36px 0; color: #eee; }
+table.blogcalendar tbody td.month { background: #fff none; font-size: 11px; padding: 4px 0 0 0; text-align: center; }
+table.blogcalendar tbody td.month a:hover { text-decoration: underline !important; }
+
+/* blog comments */
+div.blogComment { float: left; margin-top: 26px; width: 736px; }
+div.blogComment a { text-decoration: none; }
+div.blogComment a:hover { text-decoration: underline; }
+div.blogCommentBottom { background: #fff url(http://static.joncom.be/screen/images/blog/comment.gif) no-repeat 0 0; color: #555; font-family: arial, helvetica, sans-serif; font-size: 11px; height: 14px; margin: -21px 0 17px; padding: 14px 80px 0 0; text-align: right; }
+div.blogCommentBottom span { color: #888; }
+div.blogCommentTop { background: #ebebeb url(http://static.joncom.be/screen/images/blog/comment.gif) no-repeat 0 -29px; padding: 8px 21px 0; text-align: right; }
+table.blogForm { margin: 10px 0 0 0; }
+table.blogForm div { background: #f0f0f0; margin: 0 10px 0 14px; padding: 8px 14px; }
+table.blogForm div p { font-size: 11px; line-height: 18px; margin: 0; padding: 6px 0; }
+table.blogForm td { padding: 1px 0; }
+table.blogForm td.leftForm { line-height: 26px; padding: 2px 8px 0 0; text-align: right; vertical-align: top; width: 150px; }
+table.blogForm td.warning { background: #fcc; border-bottom: 5px solid #fff; border-top: 5px solid #fff; color: #900; font-size: 1.6em; font-weight: bold; padding: 0 0 0 160px; text-align: left; }
+table.blogForm textarea { font-family: arial, helvetica, sans-serif; }
+
+/* form */
+input[type=text] { background: #fdfdfd; border: 1px solid #888; font-size: 14px; line-height: 14px; margin: 0 10px 0 0; padding: 4px; width: 260px; }
+textarea { background: #fdfdfd; border: 1px solid #888; font-size: 14px; height: 100px; padding: 4px; width: 386px; }
+input.error, textarea.error { background: #fff2f2; color: #000; }
+td.error { color: #511; font-weight: bold; }
+img.warning { border: 0; margin-bottom: -2px; }
+
+/* gallery */
+#gallery { background: #fff url(http://static.joncom.be/screen/images/gallery/throbber.gif) no-repeat 50% 130px; float: left; height: 500px; width: 500px; }
+#galleryShort { background: #fff url(http://static.joncom.be/screen/images/gallery/throbber.gif) no-repeat 50% 130px; float: left; height: 333px; width: 500px; }
+#gallery img, #galleryShort img { border: 0; display: block; margin: 0 auto; }
+#galleryLeft { float: left; margin-top: -7px; width: 500px; }
+#galleryRight { float: right; margin-top: -6px; width: 461px; }
+#galleryRight img { border: 0; }
+#photoDate { border-top: 1px dotted #ddd; color: #555; font-size: 11px; line-height: 23px; margin: 0 35px; }
+#photoDesc { border-top: 1px dotted #ddd; color: #666; font-size: 11px; line-height: 19px; margin: 0 35px; padding: 3px 0; }
+#photoFlickr { border-top: 1px dotted #ddd; clear: both; padding-top: 9px; text-align: right; margin: 0 35px; }
+#photoFlickrNoBorder  { padding-top: 6px; margin-top: 10px; text-align: right; }
+#photoIntro { color: #444; font-size: 12px; line-height: 21px; margin: 100px 0 0; padding: 0 50px; }
+#photoSN2 { border-top: 1px dotted #ddd; margin: 0 35px; padding: 6px 0; }
+#photoSNShare { color: #999; font-size: 11px; line-height: 16px; }
+#photoSNLeft { float: left; margin: 7px 20px 6px 10px; width: 107px; }
+#photoSNMiddle { float: left; margin: 7px 20px 6px 0; width: 107px; }
+#photoSNRight { float: left; margin: 7px 0 6px 0; width: 107px; }
+#photoSN2 ul.sn { float: none; }
+#photoSN2 ul.sn li { float: none; padding: 3px 0; }
+#photoTitle { color: #444; font-size: 16px; line-height: 26px; margin: 0 35px; }
+#photoURL { border-top: 1px dotted #ddd; color: #999; font-size: 11px; line-height: 16px; margin: 0 35px; padding: 6px 0; }
+#photoURL span { color: #7b0000; }
+#thumbnailbg { background: #fff url(http://static.joncom.be/screen/images/gallery/thumb.gif) no-repeat 187px 2px; border-bottom: 1px dotted #ddd; height: 95px; position: relative; margin: -4px 0 14px 0; overflow: hidden; }
+#thumbnails { position: absolute; left: 203px; width: 11000px; }
+#thumbnails img { background: #fff url(http://static.joncom.be/screen/images/gallery/throbber.gif) no-repeat 50% 50%; border: 0; cursor: pointer; margin: 8px 6px; width: 75px; height: 75px; }
+#thumbnailprevnext { border-bottom: 1px dotted #ddd; color: #bbb; font-family: Arial; font-size: 11px; font-weight: normal; line-height: 14px; margin: -11px 0 23px; padding: 0 0 3px; text-align: right; }
+#thumbnailprevnext span.on { color: #7b0000; cursor: pointer; }
+#thumbnailprevnext span.on:hover { text-decoration: underline; }
+#thumbnailcurrent { color: #999; float: left; }
+
+/* code */
+table.code { border-top: 1px dotted #ddd; margin: 0 0 15px 0; width: 100%; }
+table.code td { border-bottom: 1px dotted #ddd; border-right: 1px dotted #ddd; padding: 5px 14px; line-height: 18px; }
+table.code td.noRightBorder { border-right: 0; }
+table.code td div { color: #117479; }
+
+/* code: css clocks */
+#cssclock { height: 270px; }
+#clockanalog { background: #012345 url("http://static.joncom.be/screen/images/code/css-clocks/analog.gif") no-repeat 0 0; float: left; height: 250px; margin: 0; overflow: hidden; position: relative; width: 250px; }
+#clockanalog img { border: 0; left: 0px; position: absolute; top: 0px; }
+#clockdigital { background: #012345 url("http://static.joncom.be/screen/images/code/css-clocks/digital.gif") no-repeat 162px 99px; float: right; height: 250px; margin: 0; overflow: hidden; padding: 0; position: relative; width: 485px; }
+#clockdigital div { background: #012345; height: 88px; position: absolute; width: 485px; }
+#clockdigital div:last-child { bottom: 0; }
+#clockdigital img { border: 0; display: block; height: 2000px; left: -1553px; margin: 0; padding: 0; position: absolute; top: -867px; width: 2000px; }
+
+/* code: json formatter */
+#json { background: #f4f4f4; border: 1px solid #ccc; color: #000; font-size: 13px; height: 200px; margin: 0 0 5px 0; padding: 10px; overflow: auto; width: 714px; }
+#jsonformat { font-family: arial, helvetica, sans-serif; font-size: 12px; margin: 0px 20px 15px 0; text-align: right; }
+
+/* code: PHPDate */
+td.codePHPDateLeft { width: 14%; }
+td.codePHPDateRight { width: 32%; }
+
+/* code: world map */
+#codeWorldmapControl { background: #e2e2e2; font-family: arial, helvetica, sans-serif; font-size: 11px; line-height: 21px; margin: 0 0 10px 0; padding: 5px 0; }
+#codeWorldmapControl input[type=text] { margin-right: 0; }
+#codeWorldmapControlLeft { float: left; line-height: 30px; margin: 0; text-align: right; width: 208px; }
+#codeWorldmapControlMiddle { float: left; margin: 0 0 0 29px; width: 250px; }
+#codeWorldmapControlRight { float: right; margin: 0; width: 235px; }
+
+/* portfolio: det-5 */
+#det5 { border: #ccc dotted 1px; margin: 0 0 21px 0; padding: 10px 10px 15px; width: 716px; }
+#det5 img { border: 0; height: 81px; width: 81px; }
+#det5 img.on { height: 350px; width: 350px;  }
+#det5 table { margin: 0; width: 100%; }
+#det5 td { background: #fff; border: 0; cursor: pointer; text-align: center; vertical-align: middle; }
+
+/* social networking */
+ul.sn { float: right; margin-top: -5px; width: 100%; }
+ul.sn a { background-image: none; padding: 0; margin: 0; text-decoration: none; }
+ul.sn div { float: left; height: 16px; margin: 0 2px -1px 14px; overflow: hidden; width: 16px; }
+ul.sn li { color: #777; font-family: arial, helvetica, sans-serif; font-size: 11px; float: right; line-height: 16px; }
+.sn_delicious { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3162px -26px; }
+.sn_digg { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3178px -26px; }
+.sn_facebook { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3194px -26px; }
+.sn_reddit { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3210px -26px; }
+.sn_stumbleupon { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3226px -26px; }
+.sn_twitter { background: #fff url(http://static.joncom.be/screen/images/jc.gif) no-repeat -3242px -26px; }
+.photoSN { width: 481px; }
+.photoSN div { color: #777; font-size: 11px; line-height: 16px; margin: 21px 0 9px 0; }
+.photoSN ul.sn { margin-bottom: 8px; margin-left: 5px; float: left; }
+.photoSN ul.sn div { margin-left: 0; }
+.photoSN ul.sn li { float: left; margin-right: 18px; }
+.photoSN ul.sn li:last-child { margin-right: 0; }
+
+/* thrust */
+#thrust { border-left: 5px solid #fff; border-right: 5px solid #fff; background: #000; height: 521px; position: relative; }
+div.thrust_level { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/bg.gif) no-repeat 0 0; height: 51px; overflow: hidden; }
+#thrust_cheat { border-left: 5px solid #fff; border-right: 5px solid #fff; background: #333; color: #ccc; display: none; font-family: courier, monospace; font-size: 11px; line-height: 23px; padding: 7px 20px 10px; position: relative; text-align: center; }
+#thrust_cheat input { line-height: 23px; margin-top: -1px; vertical-align: middle;  }
+#thrust_cheat select { border: 0; background: #aaa; color: #111; font-family: courier, monospace; font-size: 11px; letter-spacing: -1px;  }
+#thrust_fuel { background: #000; border: 0; clear: both; margin: 0; position: absolute; left: 94px; top: 30px; }
+#thrust_lives { background: #000; border: 0; margin: 0; position: absolute; left: 426px; top: 30px; }
+#thrust_score { background: #000; border: 0; margin: 0; position: absolute; right: 93px; top: 30px; }
+#thrust_countdown_1 { background: #000; border: 0; margin: 0; position: absolute; left: 276px; top: 30px; }
+#thrust_countdown_2 { background: #000; border: 0; margin: 0; position: absolute; left: 626px; top: 30px; }
+#thrust_arena { background: #000; border: 0; margin: 0; position: absolute; left: 0; top: 51px; }
+#volumecontrol { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat 0 0; position: relative; height: 21px; margin: -21px 0 0 752px; overflow: hidden; width: 144px; }
+#volume { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat 0 -36px; height: 12px; left: 62px; overflow: hidden; position: absolute; top: 6px; width: 48px; }
+div.mute_off { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat -144px 0; cursor: pointer; position: absolute; height: 18px; left: 13px; overflow: hidden; top: 3px; width: 24px; }
+div.mute_on { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat -168px 0; cursor: pointer; position: absolute; height: 18px; left: 13px; overflow: hidden; top: 3px; width: 24px; }
+div.volume_down { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat -192px 0; cursor: pointer; position: absolute; height: 12px; left: 46px; overflow: hidden; top: 6px; width: 12px; }
+div.volume_down:hover { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat -204px 0; }
+div.volume_up { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat -192px -12px; cursor: pointer; position: absolute; height: 12px; left: 115px; overflow: hidden; top: 6px; width: 12px; }
+div.volume_up:hover { background: #000 url(http://static.joncom.be/screen/experiments/thrust/images/volume.gif) no-repeat -204px -12px; }
+#thrust_ie { background: #dfeaf1; border-bottom: 20px solid #fff !important; color: #444; font-size: 12px; line-height: 21px; margin-bottom: 10px; padding: 16px 40px; }
+#thrust_ie h1 { border-bottom: none; color: #555; margin-bottom: 4px; }
+#thrust_sn { background-image: none; padding: 0; margin: 10px 180px 3px 0; text-align: center; }
+#thrust_sn a { color: #900; margin-left: 2px; text-decoration: none; }
+#thrust_sn span { margin-left: 14px; }
