@@ -1,9 +1,11 @@
 body{
+  margin:0;
   background-color:#012345;
   color:#294968;
 
   height:460px;
   width:320px;
+
 }
 
 
@@ -119,13 +121,13 @@ body{
 
 
 .differentTimeZones{
-	padding:7px;
+	padding:20px 10px 0 10px;
 	text-align:center;
 }
 
 .tz{
   display:inline-block;
-  padding:5px;
+  padding:4px 1px;
 }
 
 .tz:hover{
