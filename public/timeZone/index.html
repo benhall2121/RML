@@ -1,12 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" manifest="timeZone.manfest">
 <head>
   <meta charset="utf-8">
   <title>TimeZone</title>
   <meta name="description" content="Hahahahahha!">
 
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="timeZone/css/style.css" type="text/css"></link>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <link rel="apple-touch-icon" href="timeZone/images/clockIcon.png"/>
+
+  <link rel="apple-touch-startup-image" href="timeZone/images/startupImage.png" />
+
+  <link rel="stylesheet" href="timeZone/css/style.css" type="text/css" media="screen, mobile" title="main" charset="utf-8"></link>
+
   <script src="timeZone/js/lib/jquery-1.7.2.js"></script>
 
   <script type="text/javascript"> 
@@ -36,15 +44,15 @@
 
   <div id="cssclock">
     <div id="clockanalog">
-      <img src="timeZone/images/analogseconds25.png" id="analogsecond" alt="Clock second-hand" />
-      <img src="timeZone/images/analogminutes25.png" id="analogminute" alt="Clock minute-hand" />
-      <img src="timeZone/images/analoghours25.png" id="analoghour"  alt="Clock hour-hand" />
+      <img src="timeZone/images/analogseconds50.png" id="analogsecond" alt="Clock second-hand" />
+      <img src="timeZone/images/analogminutes50.png" id="analogminute" alt="Clock minute-hand" />
+      <img src="timeZone/images/analoghours50.png" id="analoghour"  alt="Clock hour-hand" />
     </div>
     
     <div id="clockdigital">
-      <img src="timeZone/images/digitalhours25.png" id="digitalhour" alt="Clocks hours" />
-      <img src="timeZone/images/digitalminutes25.png" id="digitalminute" alt="Clocks minutes" />
-      <img src="timeZone/images/digitalseconds25.png" id="digitalsecond" alt="Clocks seconds" />
+      <img src="timeZone/images/digitalhours50.png" id="digitalhour" alt="Clocks hours" />
+      <img src="timeZone/images/digitalminutes50.png" id="digitalminute" alt="Clocks minutes" />
+      <img src="timeZone/images/digitalseconds50.png" id="digitalsecond" alt="Clocks seconds" />
       <div>
         &nbsp;
       </div>
@@ -85,7 +93,6 @@
     <div class="tz" id="10">UTC+10</div>
     <div class="tz" id="11">UTC+11</div>
     <div class="tz" id="12">UTC+12</div>
-    <div></div>
   </div>
 
 </body>
