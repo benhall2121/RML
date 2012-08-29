@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>RoadMap To Launch</title>
-   <%= stylesheet_link_tag "application" %>
+  <%= stylesheet_link_tag 'application' %>
     <%= javascript_include_tag 'jquery', 'application' %>
     <%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js", "https://www.google.com/jsapi" %>
     <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
@@ -26,7 +26,9 @@
 <body>
 
 <div class="box any_box">
-  <div class="header_title">Road<span class="red">Map</span> To Launch</div>
+  <div class="header_title">
+    <%= link_to 'Road<span class="red">Map</span> To Launch'.html_safe, root_path %>
+  </div>
     
     <% if !flash.nil? %>
       <div class="flash_wrapper">
@@ -42,6 +44,19 @@
 
 <div class="any_box footer_box">
   <%= link_to 'Registration Form', new_team_path() %> | <%= link_to 'About', about_path() %>
+
+  <% if is_admin? %>
+   | <%= link_to 'Teams', teams_path() %>
+  <% end %>
+
+   | 
+
+  <% if current_user %>
+    <%= link_to 'Log Out', log_out_path() %>
+  <% else %>
+    <%= link_to 'Log In', log_in_path() %>
+  <% end %>
+
 </div>
 
 </body>

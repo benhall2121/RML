@@ -1,31 +1,24 @@
-<h1>Listing teams</h1>
+<h1>Teams</h1>
 
-<table>
+<div>
+  Team Count: <%= @teams.count %>
+</div>
+
+<table class="table table-striped">
   <tr>
     <th>Name</th>
     <th>Company name</th>
     <th>Email</th>
     <th>Phone</th>
-    <th>Quick pitch</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% @teams.each do |team| %>
   <tr>
-    <td><%= team.name %></td>
+    <td><%= link_to team.name, team_path(team), :style => 'color:white;' %></td>
     <td><%= team.company_name %></td>
     <td><%= team.email %></td>
     <td><%= team.phone %></td>
-    <td><%= team.quick_pitch %></td>
-    <td><%= link_to 'Show', team %></td>
-    <td><%= link_to 'Edit', edit_team_path(team) %></td>
-    <td><%= link_to 'Destroy', team, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New Team', new_team_path %>
