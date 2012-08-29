@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :require_admin, :except => ['home', 'new', 'about']
+  before_filter :require_admin, :except => ['home', 'new', 'about', 'create']
 
   def home
   end
